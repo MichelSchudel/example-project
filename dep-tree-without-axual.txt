@@ -1,0 +1,19 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< org.example:example-project >---------------------
+[INFO] Building example-project 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ example-project ---
+[INFO] org.example:example-project:jar:1.0-SNAPSHOT
+[INFO] \- com.nimbusds:nimbus-jose-jwt:jar:8.2:compile
+[INFO]    +- com.github.stephenc.jcip:jcip-annotations:jar:1.0-1:compile
+[INFO]    \- net.minidev:json-smart:jar:2.3:compile (version selected from constraint [1.3.1,2.3])
+[INFO]       \- net.minidev:accessors-smart:jar:1.2:compile
+[INFO]          \- org.ow2.asm:asm:jar:5.0.4:compile
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.641 s
+[INFO] Finished at: 2021-02-01T11:01:52+01:00
+[INFO] ------------------------------------------------------------------------
